@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/*logo y titulo principal*/
+
+.presentacion {width: 100%;
+       height: 50px;
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: solid blue 2px;
+       border-top: solid blue 3px;
+
+}
+
+.presentacion h1 {margin-right: 350px;
+ color: rgb(8, 2, 207);
+ font-size: 25px;
+ 
+}
+
+.presentacion .logo {height: 50px;
+        width: 100px;
+
+
+}
+
+
+/*section uno imagenes de bodas*/
+
+.s-uno {width: 100%;
+    height: 250px;
+    background: linear-gradient(50deg,rgb(117, 165, 200) 60%, rgb(227, 221, 105) 30%);
+    background-repeat: no-repeat;
+    display:flex ;
+    flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: solid blue 5px;
+}
+
+.s-uno img {width: 200px;
+    height: 250px;
+    
+
+
+}
+
+/*     */
+.s-imagenes {
+    align-items: center;
+display: contents;
+justify-content: space-evenly;
+
+}
+
+
+/*    */
+
+.s-uno h1 {
+    font-size: 60px;
+    font-family: serif;
+}
+
+
+/*section dos de celebraciones*/
+
+.s-dos {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(50deg,rgb(227, 221, 105) 60%,rgb(117, 165, 200) 30% );
+    background-repeat: no-repeat;
+    display:flex ;
+    flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: solid blue 5px;
+}
+
+
+
+
+
+.s-dos img {
+    width: 200px;
+    height: 250px;
+}
+
+/*      */
+
+
+
+/*       */
+
+
+
+.s-dos h1 {
+    font-size: 40px;
+    font-family: serif;
+}
+
+
+/* Section tres cumpleaños  */
+
+
+.s-tres {width: 100%;
+    height: 250px;
+    background: linear-gradient(50deg,rgb(227, 221, 105) 60%,rgb(117, 165, 200) 30% );
+    background-repeat: no-repeat;
+    display:flex ;
+    flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: solid blue 5px;
+}
+
+.s-tres img {width: 200px;
+    height: 250px;
+    
+}
+
+/*      */
+
+.s-imagenes-dos {
+    align-items: center;
+display: contents;
+justify-content: space-evenly;
+}
+
+
+
+/*     */
+
+.s-tres h1 {
+    font-size: 40px;
+    font-family: serif;
+}
+
+
+.tres-imagenes {
+    align-items: center;
+display: contents;
+justify-content: space-evenly;
+}

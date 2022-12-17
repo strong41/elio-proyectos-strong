@@ -1,0 +1,102 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.p-logo{width: 100%;
+        height: 40px;
+      border-bottom: yellow solid 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(fondo1.jpg);
+        background-position: center;
+        background-size: cover;
+}
+.p-logo img {height: 35px;
+    width: 100px;
+
+}
+
+.p-contenido {width: 100%;
+    height: 400px;
+    background-image:url(fondo1.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+
+
+}
+
+.contenido {height: 400px;
+       width: 600px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       flex-wrap: wrap;
+       justify-content: center;
+  
+
+
+}
+
+.img-gif {height: 400px;
+    width: 400px;
+    display: flex;
+    
+    background-image: url(festejoan5.gif);
+    background-position: center;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+}
+
+.contenido .contenido-texto {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f2f2f2;
+    margin-left: 30px;
+    
+}
+
+.contenido .contenido-titulo {
+    color: rgb(229, 215, 13);
+    margin-top: 60px;
+    transition: 1.5s;
+
+}
+
+.contenido .contenido-titulo:hover {
+    font-size: 50px;
+  color: crimson;
+
+
+}
+
+
+.ultimo{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    background: #015f78;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa {
+color: rgb(0, 0, 0);
+   
+}
+
+.general {
+    color: rgb(0, 0, 0);
+}
+
+
+.ultimo h4{
+    font-size: 30px;
+}
+
